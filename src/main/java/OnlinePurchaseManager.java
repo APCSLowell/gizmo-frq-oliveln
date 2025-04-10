@@ -16,6 +16,7 @@ public class OnlinePurchaseManager
       if(purchases.get(i).getMaker().equals(maker) && purchases.get(i).isElectronic()){
         countofEM++;
       }
+    }
     return countofEM;
   }
   
